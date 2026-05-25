@@ -1,0 +1,1652 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x14): undefined reference to `_read'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x14): undefined reference to `_write'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.su"
+      
+      The C compiler identification is GNU, found in:
+        D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x14): undefined reference to `_read'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x14): undefined reference to `_write'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.su"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-wqp59o"
+      binary: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-wqp59o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"D:/Desktop_Floder/stm32 project/PCM5102/STM32F407XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=PCM5102.map -Wl,--gc-sections -Wl,--print-memory-usage"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-wqp59o'
+        
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_3fba6
+        [1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage  -std=gnu11   -v -o CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj -c C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) 
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3fba6.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3fba6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -o C:\\Users\\47306\\AppData\\Local\\Temp\\ccRywo5q.s
+        GNU C11 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: ec427ac1ab153ab88c25b6cc54f3861f
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3fba6.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj C:\\Users\\47306\\AppData\\Local\\Temp\\ccRywo5q.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614
+        COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_3fba6.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_3fba6.a  CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_3fba6.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+        implicit include dirs: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-wqp59o']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_3fba6]
+        ignore line: [[1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage  -std=gnu11   -v -o CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj -c C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3fba6.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3fba6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -o C:\\Users\\47306\\AppData\\Local\\Temp\\ccRywo5q.s]
+        ignore line: [GNU C11 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: ec427ac1ab153ab88c25b6cc54f3861f]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3fba6.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj C:\\Users\\47306\\AppData\\Local\\Temp\\ccRywo5q.s]
+        ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614]
+        ignore line: [COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_3fba6.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_3fba6.a  CMakeFiles/cmTC_3fba6.dir/CMakeCCompilerABI.c.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_3fba6.a && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-5p0yoc"
+      binary: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-5p0yoc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"D:/Desktop_Floder/stm32 project/PCM5102/STM32F407XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=PCM5102.map -Wl,--gc-sections -Wl,--print-memory-usage"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-5p0yoc'
+        
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_3d819
+        [1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics    -v -o CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj -c C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) 
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3d819.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3d819.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -version -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\\Users\\47306\\AppData\\Local\\Temp\\cc99fX4S.s
+        GNU C++17 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 1a5e4d9fe96b5d78fa58c69128962504
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3d819.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\47306\\AppData\\Local\\Temp\\cc99fX4S.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614
+        COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/\x0d
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_3d819.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_3d819.a  CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_3d819.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/backward]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+        implicit include dirs: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/backward;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-5p0yoc']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_3d819]
+        ignore line: [[1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics    -v -o CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj -c C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3d819.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3d819.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -version -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\\Users\\47306\\AppData\\Local\\Temp\\cc99fX4S.s]
+        ignore line: [GNU C++17 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 1a5e4d9fe96b5d78fa58c69128962504]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3d819.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\47306\\AppData\\Local\\Temp\\cc99fX4S.s]
+        ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614]
+        ignore line: [COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_3d819.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_3d819.a  CMakeFiles/cmTC_3d819.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_3d819.a && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:32 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (xPack GNU Arm Embedded GCC x86_64) 13.3.1 20240614
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:28 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.18.0/"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/Program Files/MATLAB/R2025b/runtime/win64/"
+      - "D:/Program Files/MATLAB/R2025b/bin/"
+      - "D:/texlive/2025/bin/windows/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Users/47306/.local/bin/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/47306/.local/stm32cube/bin/"
+      - "C:/Users/47306/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/CLion 2025.2.3/bin/"
+      - "D:/MinGW/bin/"
+      - "D:/OpenOCD-20250710-0.12.0/bin/"
+      - "C:/Users/47306/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/DevEnv/openocd-v0.12.0-i686-w64-mingw32/bin/"
+      - "C:/Program Files (x86)/mingw-w64-v11.0.0/"
+      - "D:/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/47306/AppData/Roaming/npm/"
+      - "D:/Program Files/JetBrains/IntelliJ IDEA 2024.1/bin/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Program Files/JetBrains/PyCharm 2024.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1/bin/"
+      - "C:/Users/47306/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.com"
+    found: "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/"
+    found: "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x14): undefined reference to `_read'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x14): undefined reference to `_write'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/"
+    found: "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.su"
+      
+      The C compiler identification is GNU, found in:
+        D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/4.2.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:58 (__resolve_tool_path)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:28 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.18.0/"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/Program Files/MATLAB/R2025b/runtime/win64/"
+      - "D:/Program Files/MATLAB/R2025b/bin/"
+      - "D:/texlive/2025/bin/windows/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Users/47306/.local/bin/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/47306/.local/stm32cube/bin/"
+      - "C:/Users/47306/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/CLion 2025.2.3/bin/"
+      - "D:/MinGW/bin/"
+      - "D:/OpenOCD-20250710-0.12.0/bin/"
+      - "C:/Users/47306/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/DevEnv/openocd-v0.12.0-i686-w64-mingw32/bin/"
+      - "C:/Program Files (x86)/mingw-w64-v11.0.0/"
+      - "D:/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/47306/AppData/Roaming/npm/"
+      - "D:/Program Files/JetBrains/IntelliJ IDEA 2024.1/bin/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Program Files/JetBrains/PyCharm 2024.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1/bin/"
+      - "C:/Users/47306/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.com"
+    found: "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:28 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.18.0/"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/Program Files/MATLAB/R2025b/runtime/win64/"
+      - "D:/Program Files/MATLAB/R2025b/bin/"
+      - "D:/texlive/2025/bin/windows/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Users/47306/.local/bin/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/47306/.local/stm32cube/bin/"
+      - "C:/Users/47306/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/CLion 2025.2.3/bin/"
+      - "D:/MinGW/bin/"
+      - "D:/OpenOCD-20250710-0.12.0/bin/"
+      - "C:/Users/47306/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/DevEnv/openocd-v0.12.0-i686-w64-mingw32/bin/"
+      - "C:/Program Files (x86)/mingw-w64-v11.0.0/"
+      - "D:/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/47306/AppData/Roaming/npm/"
+      - "D:/Program Files/JetBrains/IntelliJ IDEA 2024.1/bin/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Program Files/JetBrains/PyCharm 2024.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1/bin/"
+      - "C:/Users/47306/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.com"
+    found: "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/"
+    found: "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x14): undefined reference to `_read'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x14): undefined reference to `_write'
+      C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/"
+    found: "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fstack-usage;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.su"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/4.2.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1968yb"
+      binary: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1968yb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"D:/Desktop_Floder/stm32 project/PCM5102/STM32F407XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=PCM5102.map -Wl,--gc-sections -Wl,--print-memory-usage"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1968yb'
+        
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_7ca28
+        [1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage  -std=gnu11 -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj -c "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7ca28.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7ca28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fdiagnostics-color=always -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -o C:\\Users\\47306\\AppData\\Local\\Temp\\ccPVk03u.s
+        GNU C11 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: ec427ac1ab153ab88c25b6cc54f3861f
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7ca28.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj C:\\Users\\47306\\AppData\\Local\\Temp\\ccPVk03u.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614
+        COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_7ca28.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_7ca28.a  CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_7ca28.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+        implicit include dirs: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1968yb']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_7ca28]
+        ignore line: [[1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage  -std=gnu11 -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj -c "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7ca28.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7ca28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fdiagnostics-color=always -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -o C:\\Users\\47306\\AppData\\Local\\Temp\\ccPVk03u.s]
+        ignore line: [GNU C11 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: ec427ac1ab153ab88c25b6cc54f3861f]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7ca28.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj C:\\Users\\47306\\AppData\\Local\\Temp\\ccPVk03u.s]
+        ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614]
+        ignore line: [COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_7ca28.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_7ca28.a  CMakeFiles/cmTC_7ca28.dir/CMakeCCompilerABI.c.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_7ca28.a && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-ipbau3"
+      binary: "D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-ipbau3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g3"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"D:/Desktop_Floder/stm32 project/PCM5102/STM32F407XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=PCM5102.map -Wl,--gc-sections -Wl,--print-memory-usage"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-ipbau3'
+        
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_c2ccd
+        [1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_c2ccd.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c2ccd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -version -fdiagnostics-color=always -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\\Users\\47306\\AppData\\Local\\Temp\\ccfJhvZ3.s
+        GNU C++17 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 1a5e4d9fe96b5d78fa58c69128962504
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_c2ccd.dir/'
+         C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\47306\\AppData\\Local\\Temp\\ccfJhvZ3.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614
+        COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_c2ccd.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_c2ccd.a  CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_c2ccd.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+          add: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/backward]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        collapse include dir [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+        implicit include dirs: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include/c++/13.3.1/backward;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/CMakeFiles/CMakeScratch/TryCompile-ipbau3']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/ninja.exe -v cmTC_c2ccd]
+        ignore line: [[1/2] C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++ --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-headers=yes --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.1 20240614 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_c2ccd.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi -D__USES_INITFINI__ D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c2ccd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -version -fdiagnostics-color=always -fstack-usage -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\\Users\\47306\\AppData\\Local\\Temp\\ccfJhvZ3.s]
+        ignore line: [GNU C++17 (xPack GNU Arm Embedded GCC x86_64) version 13.3.1 20240614 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build-assets/build/win32-x64/application/lib/gcc/arm-none-eabi/13.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 1a5e4d9fe96b5d78fa58c69128962504]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_c2ccd.dir/']
+        ignore line: [ C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\47306\\AppData\\Local\\Temp\\ccfJhvZ3.s]
+        ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.42.0.20240614]
+        ignore line: [COMPILER_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../libexec/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-fstack-usage' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fstack-usage' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_c2ccd.a && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ar.exe qc libcmTC_c2ccd.a  CMakeFiles/cmTC_c2ccd.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Tools\\arm-gnu-toolchain\\xpack-arm-none-eabi-gcc-13.3.1-1.1\\bin\\arm-none-eabi-ranlib.exe libcmTC_c2ccd.a && cd ."]
+        ignore line: []
+        ignore line: []
+        linker tool for 'CXX': [1/2] C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Running the CXX compiler's linker: "[1/2] C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Running the CXX compiler's linker: "[1/2] C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Running the CXX compiler's linker: "[1/2] C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe" "--version"
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:32 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.18.0/"
+      - "C:/ST/STM32CubeCLT_1.18.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/Program Files/MATLAB/R2025b/runtime/win64/"
+      - "D:/Program Files/MATLAB/R2025b/bin/"
+      - "D:/texlive/2025/bin/windows/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Users/47306/.local/bin/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/47306/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/47306/.local/stm32cube/bin/"
+      - "C:/Users/47306/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/CLion 2025.2.3/bin/"
+      - "D:/MinGW/bin/"
+      - "D:/OpenOCD-20250710-0.12.0/bin/"
+      - "C:/Users/47306/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "D:/DevEnv/openocd-v0.12.0-i686-w64-mingw32/bin/"
+      - "C:/Program Files (x86)/mingw-w64-v11.0.0/"
+      - "D:/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/47306/AppData/Roaming/npm/"
+      - "D:/Program Files/JetBrains/IntelliJ IDEA 2024.1/bin/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Program Files/JetBrains/PyCharm 2024.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1/bin/"
+      - "C:/Users/47306/AppData/Local/GitHubDesktop/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/ninja/win/x64/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.com"
+    found: "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Tools/arm-gnu-toolchain/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.18.0"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.18.0\\STM32CubeProgrammer\\bin"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\Program Files\\MATLAB\\R2025b\\runtime\\win64"
+        - "D:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\47306\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\47306\\.local\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\47306\\.local\\stm32cube\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\CLion 2025.2.3\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\OpenOCD-20250710-0.12.0\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "D:\\DevEnv\\openocd-v0.12.0-i686-w64-mingw32\\bin"
+        - "C:\\Program Files (x86)\\mingw-w64-v11.0.0"
+        - "D:\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\47306\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1\\bin"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Program Files\\JetBrains\\PyCharm 2024.1\\bin"
+        - "D:\\texlive\\2025\\bin\\windows"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Users\\47306\\AppData\\Local\\GitHubDesktop\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin"
+        - "D:\\Program Files\\JetBrains\\CLion 2026.1.1\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PCM5102"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "D:/Program Files/JetBrains/CLion 2026.1.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:32 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (xPack GNU Arm Embedded GCC x86_64) 13.3.1 20240614
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+...
