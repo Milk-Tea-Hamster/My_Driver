@@ -19,14 +19,18 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "dma.h"
+#include "i2c.h"
 #include "i2s.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "audio_out.h"
 #include "sweep.h"
-#include "voice.h"
+#include "cs43131.h"
+#include <stdio.h>
+#include "stdarg.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -88,24 +92,33 @@ int main(void)
   MX_GPIO_Init();
   MX_DMA_Init();
   MX_I2S2_Init();
+  MX_I2C1_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  /* --- 扫频测试 --- */
+UART2_Printf("init\r\n");
+  if (CS43131_Init() == 0) {
+      UART2_Printf("fail\r\n");
+  }
+
   Sweep_Init();
   Sweep_Start();
-
-  /* --- 人声测试（切换时注释上面两行，取消下面一行注释）--- */
-//   Voice_Play();
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
-  {
+  {    if (g_sweep_cycle_done) {
+        g_sweep_cycle_done = 0;
+        UART2_Printf("restart\r\n");
+    }
+	
+		
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
   }
   /* USER CODE END 3 */
 }
@@ -156,6 +169,11 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+int fputc(int ch, FILE *f) {
+HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0xffff);
+return ch;
+}
 
 /* USER CODE END 4 */
 

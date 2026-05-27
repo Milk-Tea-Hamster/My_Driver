@@ -1,26 +1,34 @@
 #include "sweep.h"
 #include "audio_out.h"
 #include <math.h>
+#include <stdio.h>
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
 #endif
 
-/* ========================================================================
-   Configurable parameters
-   ======================================================================== */
+/* ============================================================================
+ * 可配置参数
+ * ============================================================================ */
 
-#define SINE_TABLE_SIZE     256U
-#define SAMPLES_PER_HALF    (AUDIO_BUF_SIZE / 4U)
+#define SINE_TABLE_SIZE         256U
+#define SAMPLES_PER_HALF        (AUDIO_BUF_SIZE / 4U)
 
-#define SWEEP_START_FREQ    20.0f
-#define SWEEP_END_FREQ      8000.0f
-#define SWEEP_STEP_HZ       10.0f
-#define SWEEP_DURATION_SEC  60.0f
+#define SWEEP_START_FREQ        10.0f
+#define SWEEP_END_FREQ          20000.0f
+#define SWEEP_STEP_HZ           10.0f
+#define SWEEP_DURATION_SEC      60.0f
 
-/* ========================================================================
-   Static data
-   ======================================================================== */
+/* ============================================================================
+ * 全局状态 (main 循环可轮询)
+ * ============================================================================ */
+
+volatile uint8_t  g_sweep_cycle_done     = 0;
+volatile uint16_t g_sweep_current_freq   = 0;
+
+/* ============================================================================
+ * 静态数据
+ * ============================================================================ */
 
 static int16_t  sine_table[SINE_TABLE_SIZE];
 static uint32_t dds_phase_acc;
@@ -34,9 +42,9 @@ static uint32_t sweep_pair_counter;
 
 static const double DDS_SCALE = 4294967296.0;
 
-/* ========================================================================
-   Private helpers
-   ======================================================================== */
+/* ============================================================================
+ * 私有函数
+ * ============================================================================ */
 
 static void InitSineTable(void)
 {
@@ -70,21 +78,25 @@ static void Sweep_FillBuffer(int16_t *buf, uint32_t half)
         sweep_step_index++;
         if (sweep_step_index > sweep_total_steps) {
             sweep_step_index = 0;
+            dds_phase_acc = 0U;
+            g_sweep_cycle_done = 1;
         }
-        SetSweepFrequency(SWEEP_START_FREQ + (float)sweep_step_index * SWEEP_STEP_HZ);
+        uint16_t new_freq = (uint16_t)(SWEEP_START_FREQ + (float)sweep_step_index * SWEEP_STEP_HZ);
+        SetSweepFrequency((float)new_freq);
+        g_sweep_current_freq = new_freq;
     }
 }
 
-/* ========================================================================
-   Public API
-   ======================================================================== */
+/* ============================================================================
+ * 公开 API
+ * ============================================================================ */
 
 void Sweep_Init(void)
 {
     InitSineTable();
 
-    sweep_step_index  = 0;
-    sweep_total_steps = (int32_t)((SWEEP_END_FREQ - SWEEP_START_FREQ) / SWEEP_STEP_HZ);
+    sweep_step_index   = 0;
+    sweep_total_steps  = (int32_t)((SWEEP_END_FREQ - SWEEP_START_FREQ) / SWEEP_STEP_HZ);
     sweep_pair_counter = 0;
 
     float total_pairs = (float)AUDIO_SAMPLE_RATE * SWEEP_DURATION_SEC;
@@ -92,10 +104,20 @@ void Sweep_Init(void)
 
     dds_phase_acc = 0U;
     SetSweepFrequency(SWEEP_START_FREQ);
+    g_sweep_current_freq  = (uint16_t)SWEEP_START_FREQ;
+    g_sweep_cycle_done    = 0;
+
+//    printf("[Sweep] %dHz -> %dHz, %dHz 步进, %d 秒/周期, 96kHz 16-bit Stereo\r\n",
+//           (int)SWEEP_START_FREQ, (int)SWEEP_END_FREQ,
+//           (int)SWEEP_STEP_HZ, (int)SWEEP_DURATION_SEC);
+//    printf("[Sweep] 共 %d 步, 每步约 %lu 采样对\r\n",
+//           (int)sweep_total_steps, (unsigned long)sweep_pairs_per_step);
+//    printf("[Sweep] Init OK, buf=%u samples, DMA 双缓冲\r\n", AUDIO_BUF_SIZE);
 }
 
 void Sweep_Start(void)
 {
     AudioOut_SetFillCallback(Sweep_FillBuffer);
     AudioOut_Start();
+//    printf("[Sweep] Start\r\n");
 }

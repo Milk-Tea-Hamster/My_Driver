@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/cmake_install.cmake",
-		"D:/Desktop_Floder/stm32 project/PCM5102/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -4,7 +4,7 @@
 #include "main.h"
 
 #define AUDIO_BUF_SIZE  1024
-#define AUDIO_SAMPLE_RATE 48000U
+#define AUDIO_SAMPLE_RATE 96000U
 
 typedef void (*AudioOut_FillCallback)(int16_t *buffer, uint32_t half);
 
