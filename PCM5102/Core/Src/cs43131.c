@@ -35,8 +35,8 @@
 
 /* ── PCM 通路 (0x09xxxx) ── */
 #define REG_PCM_FILTER          0x090000U
-#define REG_PCM_VOL_A           0x090001U
-#define REG_PCM_VOL_B           0x090002U
+#define REG_PCM_VOL_A           0x090002U
+#define REG_PCM_VOL_B           0x090001U
 #define REG_PCM_MUTE_CTL        0x090003U
 #define REG_PCM_SIG_CTL2        0x090004U
 
@@ -196,7 +196,7 @@ uint8_t CS43131_Init(void)
     I2C_WriteReg(REG_MCLK_SRC, 0x02U);
 
     PwrOn(CS43131_PWR_XTAL);
-    HAL_Delay(2);
+    HAL_Delay(10);                               /* 晶振启动最长 6.5ms */
 
     /* MCLK_SRC = 0x00: 切至 XTAL 直通, 内部 MCLK=24.576MHz */
     I2C_WriteReg(REG_MCLK_SRC, 0x00U);
@@ -224,7 +224,7 @@ uint8_t CS43131_Init(void)
     I2C_WriteReg(REG_ASP_CTL, 0x00U);
 
     /* ── 6. PCM 通路配置 ── */
-    CS43131_SetFilter(0);
+    CS43131_SetFilter(0x02U);                 /* 快滚降 + 低延迟 + HPF 使能 */
     CS43131_SetVolume(0x20);                 /* 初始音量 -12dB */
 
     /* 静音控制: SZC 软斜坡 | 双声道联动 | 解除静音 */
@@ -238,7 +238,7 @@ uint8_t CS43131_Init(void)
 
     /* ── 8. 耳机放大器配置 ── */
     I2C_WriteReg(REG_HP_OUT_CTL1, 0x10U);    /* 满偏输出 1Vrms */
-    I2C_WriteReg(REG_HP_VOLT_MODE, 0x00U);   /* 高压模式 0 */
+    I2C_WriteReg(REG_HP_VOLT_MODE, 0x1EU);   /* ADPT_PWR=自适应, HV_EN=1 */
 
     /* Pop-free 序列 */
     I2C_WriteReg(REG_POP_FREE,    0x99U);
