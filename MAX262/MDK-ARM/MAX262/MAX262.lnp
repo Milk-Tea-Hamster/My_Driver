@@ -1,4 +1,4 @@
---cpu Cortex-M7.fp.dp
+--cpu Cortex-M7.fp.sp
 "max262\startup_stm32h743xx.o"
 "max262\max262.o"
 "max262\main.o"
@@ -25,7 +25,7 @@
 "max262\stm32h7xx_hal_tim.o"
 "max262\stm32h7xx_hal_tim_ex.o"
 "max262\system_stm32h7xx.o"
---strict --scatter "MAX262\MAX262.sct"
+--library_type=microlib --strict --scatter "MAX262\MAX262.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "MAX262.map" -o MAX262\MAX262.axf

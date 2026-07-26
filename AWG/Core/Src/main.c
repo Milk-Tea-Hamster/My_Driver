@@ -101,9 +101,7 @@ int main(void)
   WaveGen_Start(WAVE_SINE, 1000); /* 默认输出 1kHz 正弦波 */
   Key_Init();
   Delay_Init();
-  OLED_Init();
   last_tick = HAL_GetTick(); 
-	OLED_ShowString(1, 1, "Freq:            ");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -119,56 +117,10 @@ int main(void)
         Key_Ticks();
     }
 
-    /* OLED 显示刷新：参数变化时更新 */
-    {
-        static uint16_t last_freq;
-        static uint8_t  last_amp;
-        static WaveType last_type = (WaveType)(-1);
-        static uint8_t  last_duty = 255;
-
-        uint16_t freq = WaveGen_GetFrequency();
-        uint8_t  amp  = WaveGen_GetAmplitude();
-        WaveType type = WaveGen_GetType();
-        uint8_t  duty = WaveGen_GetDuty();
-
-        if (freq != last_freq || amp != last_amp
-            || type != last_type || duty != last_duty) {
-
-            last_freq = freq;
-            last_amp  = amp;
-            last_type = type;
-            last_duty = duty;
-
-            /* 第 1 行: 频率 */
-           
-            OLED_ShowNum(1, 7, freq, 4);
-            OLED_ShowString(1, 12, " Hz ");
-
-            /* 第 2 行: 峰峰值 */
-            OLED_ShowString(2, 1, "Vpp:             ");
-            OLED_ShowFloat(2, 7, WaveGen_GetVpp(), 2);
-            OLED_ShowString(2, 13, " V ");
-
-            /* 第 3 行: 波形类型 */
-            {
-                static const char *wave_names[] = {
-                    "Sine    ", "Triangle", "Sawtooth", "Square  "
-                };
-                OLED_ShowString(3, 1, "Wave:            ");
-                OLED_ShowString(3, 7, (char *)wave_names[type]);
-            }
-
-            /* 第 4 行: 占空比（仅方波），否则清空 */
-            if (type == WAVE_SQUARE) {
-                OLED_ShowString(4, 1, "Duty:            ");
-                OLED_ShowNum(4, 7, duty, 3);
-                OLED_ShowChar(4, 10, '%');
-            } else {
-                OLED_ShowString(4, 1, "                ");
-            }
-        }
-    }
- }
+   
+        
+    
+ 
   /* USER CODE END 3 */
 }
 

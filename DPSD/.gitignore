@@ -1,0 +1,26 @@
+# Local and generated build output
+/build/
+/MDK-ARM/out/
+/MDK-ARM/tmp/
+/MDK-ARM/h743_hal/*.o
+/MDK-ARM/h743_hal/*.d
+/MDK-ARM/h743_hal/*.crf
+/MDK-ARM/h743_hal/*.axf
+/MDK-ARM/h743_hal/*.hex
+/MDK-ARM/h743_hal/*.map
+/MDK-ARM/h743_hal/*.lnp
+/MDK-ARM/h743_hal/*.htm
+/MDK-ARM/h743_hal/*.dep
+/MDK-ARM/h743_hal/*.iex
+
+# Per-user IDE state
+*.uvguix.*
+/.idea/
+/.vscode/ipch/
+
+# Editor and OS noise
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+Desktop.ini
