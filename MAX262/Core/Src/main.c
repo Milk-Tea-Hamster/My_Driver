@@ -96,12 +96,18 @@ int main(void)
   MAX262_Init();
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
 
-  /* === 低通滤波器验证 ===
-   * fc=140kHz, Q=0.707 (巴特沃斯最平坦响应)
-   * 注意: f0≈140kHz → f_CLK_min≈5.7MHz, 超过 MAX262 标称 4MHz 上限
-   * 若实际波形异常, 请降低 fc 至 100kHz 以下
+  /* === 通道 A: 50kHz 巴特沃斯低通 ===
+   * 输出引脚 → LP_A = 19脚
+   * f0=50kHz, F=24, Mode1, f_CLK≈3.93MHz
    */
-  MAX262_LowPass(140000.0f, 0.707f, MAX262_CHANNEL_A);
+  MAX262_LowPass(50000.0f, 0.707f, MAX262_CHANNEL_B);
+
+  /* === 通道 B: 50kHz 带通 (Q=5, BW=10kHz) ===
+   * 输出引脚 → BP_B = 17脚
+   * f0=50kHz, F=24, Mode1, f_CLK≈3.93MHz (与通道A共用时钟)
+   * Q=5 → -3dB 带宽 = 50kHz/5 = 10kHz, 峰化明显、易于验证
+   */
+//  MAX262_BandPass(50000.0f, 3.0f, MAX262_CHANNEL_B);
   /* MAX262_GetClock() 可读取实际 f_CLK 值 */
   /* USER CODE END 2 */
 

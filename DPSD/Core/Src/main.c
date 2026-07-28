@@ -219,6 +219,16 @@ void Task_10ms(uint16_t ticks)
 void Task_100ms(void)
 {
     FreqMeasure_Process(&g_freq_measure, &g_wave_info);
+
+    /* UART1 发送 DPSD 测量结果 */
+    UART1_Printf("DPSD: Vpp=%.4f Vrms=%.4f Ph=%.2f Freq=%.1f SNR=%.1f DC=%.3f %s\r\n",
+                 (double)g_dpsd_result.amplitude_pp,
+                 (double)g_dpsd_result.amplitude_rms,
+                 (double)g_dpsd_result.phase_deg,
+                 (double)g_dpsd_result.frequency_hz,
+                 (double)g_dpsd_result.snr_db,
+                 (double)g_dpsd_result.dc_offset_v,
+                 g_dpsd_result.valid ? "OK" : "INVALID");
 }
 
 /* 1秒周期*/
